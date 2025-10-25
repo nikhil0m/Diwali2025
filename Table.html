@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Table with Link</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background: #f5f6fa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 70%;
+      background: #fff;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    thead {
+      background: #0078d7;
+      color: white;
+    }
+
+    th, td {
+      padding: 12px 18px;
+      text-align: left;
+    }
+
+    th {
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+
+    tr:nth-child(even) {
+      background: #f3f6fa;
+    }
+
+    tr:hover {
+      background: #e6f2ff;
+    }
+
+    a {
+      color: #0078d7;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <thead>
+      <tr>
+        <th>S. No.</th>
+        <th>Name</th>
+        <th>Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Garnier-Clone</td>
+        <td><a href="https://garnier-clone.netlify.app/" target="_blank">Visit Profile</a></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Havels-Clone</td>
+        <td><a href="https://havels-clone.netlify.app/" target="_blank">Visit Profile</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
