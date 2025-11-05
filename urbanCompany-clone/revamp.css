@@ -150,7 +150,7 @@ h1{
 }
 
 .slider {
-    margin: 5vh 14vh;
+    margin: 5vh 10vh;
     gap: 5vh;
     display: flex;
     overflow-x: auto;
